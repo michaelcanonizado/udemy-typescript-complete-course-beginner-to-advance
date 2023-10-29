@@ -1,5 +1,5 @@
 5849
-149D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\dist133429752812929902 1
+149D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\dist133430589505451499 1
 237D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\cleanupEnableBackground.js133429751201148593 0
 163D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\clone133429751188824795 1
 209D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\caniuse-lite\data\features\subresource-integrity.js133429751372569315 0
@@ -34,7 +34,7 @@
 179D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\mdn-data\package.json133429751208227454 0
 162D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\csso133429751260511732 1
 201D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\caniuse-lite\data\features\css-paint-api.js133429751318982144 0
-148D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\src133429750742227182 1
+148D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\src133430584034623167 1
 197D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\@swc\helpers\src\_apply_decs_2203_r.mjs133429751324192513 0
 180D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\semver\functions\lt.js133429751218570875 0
 167D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\callsites133429751183189242 1
@@ -77,7 +77,7 @@
 246D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\aliases.d.ts.map133429751208845801 0
 195D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\css-tree\cjs\syntax\atrule\import.cjs133429751246121753 0
 208D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\csso\node_modules\css-tree\cjs\tokenizer\index.cjs133429751248974130 0
-157D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\src\index.ts133429752835385386 0
+157D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\src\index.ts133430589640034769 0
 231D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\prepare\index.js133429751234434425 0
 190D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\update-browserslist-db\README.md133429751190427439 0
 199D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\csso\cjs\replace\property\font-weight.cjs133429751219897330 0
@@ -211,7 +211,7 @@
 182D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\dom-serializer\README.md133429751203808954 0
 166D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\css-tree133429751327274477 1
 187D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\entities\lib\encode-trie.d.ts133429751223416032 0
-184D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\dist\typescript-with-parcel.3464ddca.js133429752762441821 0
+184D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\dist\typescript-with-parcel.3464ddca.js133430588421901467 0
 189D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\caniuse-lite\data\regions\PK.js133429751370381101 0
 185D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\supports-color\package.json133429751181181466 0
 204D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\lmdb\node_modules\node-addon-api\noexcept.gypi133429751183488441 0
@@ -1988,14 +1988,14 @@
 171D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\lmdb\index.js133429751270287237 0
 220D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\dom-serializer\node_modules\entities\lib\decode_codepoint.d.ts133429751210501380 0
 197D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\caniuse-lite\data\features\flow-root.js133429751331872193 0
-167D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\dist\index.377278e2.js133429752812770340 0
+167D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\dist\index.377278e2.js133430589505219854 0
 171D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\lmdb\level.js133429751270646287 0
 193D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\lmdb\dependencies\lz4\lib\lz4file.c133429751231939161 0
 209D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_stat.c133429751240735951 0
 172D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\lmdb\native.js133429751271160002 0
 175D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\lmdb\package.json133429751273623586 0
 189D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\caniuse-lite\data\regions\BS.js133429751257061379 0
-171D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\dist\index.377278e2.js.map133429752812890014 0
+171D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\dist\index.377278e2.js.map133430589505451499 0
 212D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\csso\node_modules\css-tree\cjs\syntax\atrule\index.cjs133429751247627738 0
 224D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\dom-serializer\node_modules\entities\lib\decode_codepoint.d.ts.map133429751201597398 0
 179D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\lmdb\rollup.config.js133429751271793395 0
@@ -2779,7 +2779,7 @@
 218D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\csso\node_modules\css-tree\lib\tokenizer\OffsetToLocation.js133429751317905019 0
 210D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\css-select\node_modules\domutils\lib\esm\querying.js133429751204417359 0
 207D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\csso\node_modules\css-tree\lib\tokenizer\types.js133429751325324729 0
-160D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\dist\index.html133429752762441821 0
+160D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\dist\index.html133430588411868597 0
 202D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\csso\node_modules\css-tree\lib\syntax\atrule133429751319480810 1
 205D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\csso\node_modules\css-tree\lib\syntax\create.js133429751274341660 0
 196D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\csso\lib\restructure\7-mergeRuleset.js133429751241608742 0
@@ -5847,4 +5847,4 @@
 171D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\.bin\svgo.ps1133429751382413107 0
 185D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\.bin\update-browserslist-db133429751382482925 0
 189D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\node_modules\.bin\update-browserslist-db.cmd133429751382482925 0
-188D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\dist\typescript-with-parcel.3464ddca.js.map133429752762721075 0
+188D:\Michael Root\Work\Code\Courses\Udemy - TypeScript Complete Course\udemy-typescript-complete-course-beginner-to-advance\typescript-with-parcel\dist\typescript-with-parcel.3464ddca.js.map133430588421901467 0
