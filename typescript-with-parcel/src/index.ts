@@ -13,6 +13,6 @@ class Person {
 	}
 }
 
-const person1 = new Person('Michael', 'mike@gmail.com');
+const person1: Person = new Person('Michael', 'mike@gmail.com');
 
 console.log(person1.greet());
