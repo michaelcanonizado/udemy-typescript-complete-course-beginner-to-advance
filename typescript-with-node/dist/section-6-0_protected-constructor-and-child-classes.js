@@ -25,5 +25,10 @@ class AdminDepartment extends Department {
 }
 const itDepartment = new ItDepartment();
 const adminDepartment = new AdminDepartment();
+itDepartment.addHolidays([
+    { date: new Date(), reason: 'xmas' },
+    { date: new Date(), reason: 'easter' },
+    { date: new Date(), reason: 'halloween' },
+]);
 console.log(itDepartment);
 console.log(adminDepartment);
