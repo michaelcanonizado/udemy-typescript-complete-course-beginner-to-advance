@@ -15,6 +15,17 @@ abstract class Department {
 			}
 		}
 	}
+
+	public printHolidays() {
+		if (this.holidays.length === 0) {
+			return console.log(`The ${this.name} has no holidays`);
+		}
+		console.log(`Here is the list of holidays for the ${this.name}.`);
+
+		this.holidays.forEach((holiday, index) => {
+			console.log(`   ${index + 1}). ${holiday.reason} - ${holiday.date}`);
+		});
+	}
 }
 
 class ItDepartment extends Department {
@@ -33,8 +44,8 @@ class AdminDepartment extends Department {
 	}
 }
 
-const itDepartment = new ItDepartment();
-const adminDepartment = new AdminDepartment();
+const itDepartment: ItDepartment = new ItDepartment();
+const adminDepartment: AdminDepartment = new AdminDepartment();
 
 itDepartment.addHolidays([
 	{ date: new Date(), reason: 'xmas' },
@@ -42,5 +53,5 @@ itDepartment.addHolidays([
 	{ date: new Date(), reason: 'halloween' },
 ]);
 
-console.log(itDepartment);
-console.log(adminDepartment);
+itDepartment.printHolidays();
+adminDepartment.printHolidays();
