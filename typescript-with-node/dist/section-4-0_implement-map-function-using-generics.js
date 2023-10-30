@@ -1,4 +1,5 @@
 "use strict";
+// @ts-ignore
 const map = (array, callbackFn) => {
     let resultArr = [];
     if (array.length === 0) {

@@ -1,7 +1,7 @@
 type MAP = {
 	<T, U>(array: T[], callbackFn: (item: T) => T): U[];
 };
-
+// @ts-ignore
 const map: MAP = (array, callbackFn) => {
 	let resultArr = [];
 
