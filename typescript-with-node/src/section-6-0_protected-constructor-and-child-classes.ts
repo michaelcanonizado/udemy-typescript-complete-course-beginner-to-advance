@@ -16,7 +16,17 @@ abstract class Department {
 		}
 	}
 
-	public printHolidays() {
+	protected abstract printHolidays(): void;
+}
+
+class ItDepartment extends Department {
+	protected holidays: Holidays = [];
+
+	constructor() {
+		super('IT Department');
+	}
+
+	public printHolidays(): void {
 		if (this.holidays.length === 0) {
 			return console.log(`The ${this.name} has no holidays`);
 		}
@@ -28,19 +38,22 @@ abstract class Department {
 	}
 }
 
-class ItDepartment extends Department {
-	protected holidays: Holidays = [];
-
-	constructor() {
-		super('IT Department');
-	}
-}
-
 class AdminDepartment extends Department {
 	protected holidays: Holidays = [];
 
 	constructor() {
 		super('Admin Department');
+	}
+
+	public printHolidays(): void {
+		if (this.holidays.length === 0) {
+			return console.log(`The ${this.name} has no holidays`);
+		}
+		console.log(`Here is the list of holidays for the ${this.name}.`);
+
+		this.holidays.forEach((holiday, index) => {
+			console.log(`   ${index + 1}). ${holiday.reason} - ${holiday.date}`);
+		});
 	}
 }
 
