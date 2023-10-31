@@ -41,12 +41,29 @@ class Car implements Automobile<AutomobileType, AutomobileBrands, AutomobileColo
 		public description: string
 	) {}
 }
+class Truck
+	implements Automobile<AutomobileType, AutomobileBrands, AutomobileColors>
+{
+	public type: AutomobileType = AutomobileType.truck;
+
+	constructor(
+		public brand: AutomobileBrands,
+		public colors: AutomobileColors[],
+		public description: string
+	) {}
+}
 const car2: Car = new Car(
 	AutomobileBrands.honda,
 	[AutomobileColors.red, AutomobileColors.green, AutomobileColors.blue],
 	'This car is a Honda'
 );
+const truck2 = new Truck(
+	AutomobileBrands.honda,
+	[AutomobileColors.red],
+	'This truck is a Honda'
+);
 
 // Outputting the Objects
 console.log(car1);
 console.log(car2);
+console.log(truck2);

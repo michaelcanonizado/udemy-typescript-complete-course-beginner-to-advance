@@ -26,6 +26,7 @@ const car1 = {
     colors: [AutomobileColors.red, AutomobileColors.green],
     description: 'This car is a Ferrari',
 };
+// Using the Automobile Interface as a blueprint for a Class, and using that Class to generate the Object
 class Car {
     constructor(brand, colors, description) {
         this.brand = brand;
@@ -34,6 +35,17 @@ class Car {
         this.type = AutomobileType.car;
     }
 }
+class Truck {
+    constructor(brand, colors, description) {
+        this.brand = brand;
+        this.colors = colors;
+        this.description = description;
+        this.type = AutomobileType.truck;
+    }
+}
 const car2 = new Car(AutomobileBrands.honda, [AutomobileColors.red, AutomobileColors.green, AutomobileColors.blue], 'This car is a Honda');
+const truck2 = new Truck(AutomobileBrands.honda, [AutomobileColors.red], 'This truck is a Honda');
+// Outputting the Objects
 console.log(car1);
 console.log(car2);
+console.log(truck2);
