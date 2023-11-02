@@ -1,7 +1,9 @@
 //
+//
 // 1. typecasting - overriding the inferred type by using 'as' followed by the desire type at the end of the expression.
 let firstNameField = document.querySelector('#firstName')! as HTMLInputElement;
 
+//
 //
 // 2. totality - typescript ensures that you have covered all possible values (totality checking / exhaustiveness). This comes handy when dealing with unions .
 type Weekdays = 'Mon' | 'Tue' | 'Wed' | 'Thu' | 'Fri';
@@ -21,6 +23,7 @@ function nextDayForAWeekDay(weekday: Weekdays): Day {
 	}
 }
 
+//
 //
 // 3. descriminated unions - allows you to assign a type to an object, and mandate that type when declaring the object.
 type Cat = {
@@ -57,6 +60,7 @@ function animalReaction(animal: Animal) {
 }
 
 //
+//
 // 4. index accessed types - allows you to use part of a custom type aliase of an object and assign it to another type aliase.
 //
 // Using servicesList custom type aliase and assigning it to a separate type aliase. Instead of:
@@ -83,3 +87,22 @@ type UserDetailsAPIResponse = {
 		}[];
 	};
 };
+
+//
+//
+// keyof - stores the keys of an Object as unions or general types.
+type Events = {
+	id: number;
+	date: Date;
+	type: 'indoor' | 'outdoor';
+};
+//
+// the code below stores the keys of Events as unions: "id" | "date" | "type"
+type unionOfKeysOfEvents = keyof Events;
+//
+// the code below stores the keys of Numeric as a number, as the keys of Numeric are set to be type of numbers.
+type Numeric = {
+	[key: number]: string;
+};
+
+type NumericKeyOf = keyof Numeric;
