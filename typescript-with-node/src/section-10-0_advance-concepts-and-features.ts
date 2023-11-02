@@ -30,24 +30,19 @@ type Cat = {
 	type: 'cat';
 	purrs: boolean;
 };
-
 type Dog = {
 	type: 'dog';
 	barks: boolean;
 };
-
 type Animal = Cat | Dog;
-
 let cat: Animal = {
 	type: 'cat',
 	purrs: true,
 };
-
 let dog: Animal = {
 	type: 'dog',
 	barks: true,
 };
-
 function animalReaction(animal: Animal) {
 	switch (animal.type) {
 		case 'cat':
@@ -74,7 +69,6 @@ function animalReaction(animal: Animal) {
 //	}
 // This removes a lot of unnecessary repetitive code.
 type ServiceList = UserDetailsAPIResponse['servicesList'];
-
 type UserDetailsAPIResponse = {
 	id: number;
 	name: string;
@@ -104,7 +98,6 @@ type unionOfKeysOfEvents = keyof Events;
 type Numeric = {
 	[key: number]: string;
 };
-
 type NumericKeyOf = keyof Numeric;
 
 //
@@ -123,15 +116,33 @@ if (typeof greeting === 'number') {
 // commenting aliases out as it is declared earlier in the code
 //type Weekdays = 'Mon' | 'Tue' | 'Wed' | 'Thu' | 'Fri';
 //type Day = Weekdays | 'Sat' | 'Sunday';
-
+//
+// example #1
 type NextDay = {
 	[W in Weekdays]: Day;
 };
-
 let nextDay: NextDay = {
 	Mon: 'Tue',
 	Tue: 'Wed',
 	Wed: 'Thu',
 	Thu: 'Fri',
 	Fri: 'Sat',
+};
+// example #2
+type Artist = {
+	id: number;
+	name: string;
+	bio: string;
+};
+type MappedArtistForEdit = {
+	[Property in keyof Artist]?: Artist[Property];
+} & { id: number };
+const artist: Artist = {
+	id: 1,
+	name: 'Justin',
+	bio: 'Hey, I am Justin',
+};
+const editedArtist: MappedArtistForEdit = {
+	id: 1,
+	bio: 'Hello, I am Justin',
 };
