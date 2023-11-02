@@ -55,3 +55,31 @@ function animalReaction(animal: Animal) {
 			break;
 	}
 }
+
+//
+// 4. index accessed types - allows you to use part of a custom type aliase of an object and assign it to another type aliase.
+//
+// Using servicesList custom type aliase and assigning it to a separate type aliase. Instead of:
+// type ServicesList = {
+//		count: number;
+//		services: {
+//			id: number;
+//			name: string;
+//			price: number;
+//		}[];
+//	}
+// This removes a lot of unnecessary repetitive code.
+type ServiceList = UserDetailsAPIResponse['servicesList'];
+
+type UserDetailsAPIResponse = {
+	id: number;
+	name: string;
+	servicesList: {
+		count: number;
+		services: {
+			id: number;
+			name: string;
+			price: number;
+		}[];
+	};
+};
