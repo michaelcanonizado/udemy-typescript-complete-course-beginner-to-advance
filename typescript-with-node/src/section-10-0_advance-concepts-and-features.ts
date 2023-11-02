@@ -115,3 +115,23 @@ let firstName: typeof greeting;
 if (typeof greeting === 'number') {
 	console.log('value is number');
 }
+
+//
+//
+// 7. MAPPED TYPES - allows you to create new types by transforming the properties of existing types.
+//
+// commenting aliases out as it is declared earlier in the code
+//type Weekdays = 'Mon' | 'Tue' | 'Wed' | 'Thu' | 'Fri';
+//type Day = Weekdays | 'Sat' | 'Sunday';
+
+type NextDay = {
+	[W in Weekdays]: Day;
+};
+
+let nextDay: NextDay = {
+	Mon: 'Tue',
+	Tue: 'Wed',
+	Wed: 'Thu',
+	Thu: 'Fri',
+	Fri: 'Sat',
+};
