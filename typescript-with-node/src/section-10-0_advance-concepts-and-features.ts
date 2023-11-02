@@ -1,11 +1,11 @@
 //
 //
-// 1. typecasting - overriding the inferred type by using 'as' followed by the desire type at the end of the expression.
+// 1. TYPECASTING - overriding the inferred type by using 'as' followed by the desire type at the end of the expression.
 let firstNameField = document.querySelector('#firstName')! as HTMLInputElement;
 
 //
 //
-// 2. totality - typescript ensures that you have covered all possible values (totality checking / exhaustiveness). This comes handy when dealing with unions .
+// 2. TOTALITY - typescript ensures that you have covered all possible values (totality checking / exhaustiveness). This comes handy when dealing with unions .
 type Weekdays = 'Mon' | 'Tue' | 'Wed' | 'Thu' | 'Fri';
 type Day = Weekdays | 'Sat' | 'Sun';
 function nextDayForAWeekDay(weekday: Weekdays): Day {
@@ -25,7 +25,7 @@ function nextDayForAWeekDay(weekday: Weekdays): Day {
 
 //
 //
-// 3. descriminated unions - allows you to assign a type to an object, and mandate that type when declaring the object.
+// 3. DESCRIMINATED UNIONS - allows you to assign a type to an object, and mandate that type when declaring the object.
 type Cat = {
 	type: 'cat';
 	purrs: boolean;
@@ -61,7 +61,7 @@ function animalReaction(animal: Animal) {
 
 //
 //
-// 4. index accessed types - allows you to use part of a custom type aliase of an object and assign it to another type aliase.
+// 4. INDEX ACCESSED TYPES - allows you to use part of a custom type aliase of an object and assign it to another type aliase.
 //
 // Using servicesList custom type aliase and assigning it to a separate type aliase. Instead of:
 // type ServicesList = {
@@ -90,7 +90,7 @@ type UserDetailsAPIResponse = {
 
 //
 //
-// keyof - stores the keys of an Object as unions or general types.
+// 5. KEYOF - stores the keys of an Object as unions or general types.
 type Events = {
 	id: number;
 	date: Date;
@@ -106,3 +106,12 @@ type Numeric = {
 };
 
 type NumericKeyOf = keyof Numeric;
+
+//
+//
+// 6. TYPEOF - allows us to extract the type of a value. This type can be used for conditionals or be used to assign to another value.
+let greeting = 32;
+let firstName: typeof greeting;
+if (typeof greeting === 'number') {
+	console.log('value is number');
+}
