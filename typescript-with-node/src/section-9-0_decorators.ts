@@ -1,9 +1,19 @@
-class Airplane {
-	constructor(public model: string, public pilot: string) {}
+function FirstDecorator(constructor: Function) {
+	console.log('Decorator Invoked');
+	console.log(constructor);
 }
 
-const airplane: Airplane = new Airplane('A380', 'John');
+// Decorator wont run
+// @ts-ignore
+@FirstDecorator
+class Aircraft {
+	constructor(public _aircraftModel: string, private pilot: string) {}
 
-console.log(airplane);
+	public pilotName() {
+		console.log(this.pilot);
+	}
 
-export {};
+	public get aircraftModel() {
+		return this._aircraftModel;
+	}
+}
