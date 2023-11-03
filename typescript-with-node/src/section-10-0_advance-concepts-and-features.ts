@@ -1,7 +1,8 @@
 //
 //
 // 1. TYPECASTING - overriding the inferred type by using 'as' followed by the desire type at the end of the expression.
-let firstNameField = document.querySelector('#firstName')! as HTMLInputElement;
+// Commenting expression as document does not exist in node
+// let firstNameField = document.querySelector('#firstName')! as HTMLInputElement;
 
 //
 //
@@ -106,7 +107,7 @@ type NumericKeyOf = keyof Numeric;
 let greeting = 32;
 let firstName: typeof greeting;
 if (typeof greeting === 'number') {
-	console.log('value is number');
+	// console.log('value is number');
 }
 
 //
