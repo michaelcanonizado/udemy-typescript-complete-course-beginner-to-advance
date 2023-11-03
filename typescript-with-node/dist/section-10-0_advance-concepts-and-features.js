@@ -42,7 +42,7 @@ function animalReaction(animal) {
 let greeting = 32;
 let firstName;
 if (typeof greeting === 'number') {
-    console.log('value is number');
+    // console.log('value is number');
 }
 let nextDay = {
     Mon: 'Tue',

@@ -147,3 +147,18 @@ const editedArtist: MappedArtistForEdit = {
 	id: 1,
 	bio: 'Hello, I am Justin',
 };
+
+//
+//
+// 8. CONDITIONAL TYPES -
+interface AnimalType {
+	live: () => void;
+}
+interface DogType extends AnimalType {
+	bark: () => void;
+}
+type DoesExtend = Dog extends AnimalType ? string : number;
+// SomeType extends OtherType ? TrueType : FalseType;
+type isString<T> = T extends string ? true : false;
+type A = isString<string>;
+type B = isString<number>;
