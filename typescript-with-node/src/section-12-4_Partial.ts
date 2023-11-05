@@ -4,6 +4,7 @@ interface User {
 	password: string;
 }
 
+// Allows us to create a type where the properties are any or all of the properties of the type that is passed to the generic
 function updateUser(user: User, updates: Partial<User>): User {
 	return { ...user, ...updates };
 }
