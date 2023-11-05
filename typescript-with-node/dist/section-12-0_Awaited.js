@@ -1,6 +1,7 @@
 "use strict";
 const promise = new Promise((res, rej) => {
     setTimeout(() => {
+        // Return an object
         res({
             name: 'John',
             age: 36,
@@ -9,6 +10,7 @@ const promise = new Promise((res, rej) => {
     }, 1000);
 });
 let type = {
-    age: 'hello',
+    name: 'mike',
+    age: 19,
+    email: 'mike@example.com',
 };
-console.log(type);
