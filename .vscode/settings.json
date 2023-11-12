@@ -1,0 +1,5 @@
+{
+	"accessibility.verbosity.hover": true,
+	"vsintellicode.typescript.completionsEnabled": true,
+	"javascript.inlayHints.functionLikeReturnTypes.enabled": false
+}
