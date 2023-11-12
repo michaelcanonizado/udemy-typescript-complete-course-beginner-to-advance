@@ -1,16 +1,15 @@
 import { Avatar, Box, Typography } from '@mui/material';
 import React, { FC, ReactElement } from 'react';
 
-// import { ITaskCounter } from './interfaces/ITaskCounter';
+import { ITaskCounter } from './interfaces/ITaskCounter';
 import { Status } from '../createTaskForm/enums/Status';
-// import { emitCorrectBorderColor } from './helpers/emitCorrectBorderColor';
-// import { emitCorrectLabel } from './helpers/emitCorrectLabel';
+import { emitCorrectBorderColor } from './helpers/emitCorrectBorderColor';
+import { emitCorrectLabel } from './helpers/emitCorrectLabel';
 
-{
-  /* <ITaskCounter> */
-}
-export const TaskCounter: FC = (props): ReactElement => {
-  //   const { status = Status.completed, count = 0 } = props;
+export const TaskCounter: FC<ITaskCounter> = (
+  props,
+): ReactElement => {
+  const { status = Status.completed, count = 0 } = props;
 
   return (
     <>
@@ -27,15 +26,13 @@ export const TaskCounter: FC = (props): ReactElement => {
             width: '96px',
             height: '96px',
             marginBottom: '16px',
-            // borderColor: `${emitCorrectBorderColor(
-            //   status,
-            // )}`,
-            borderColor: 'warning.light',
+            borderColor: `${emitCorrectBorderColor(
+              status,
+            )}`,
           }}
         >
           <Typography color="#ffffff" variant="h4">
-            {/* {count} */}
-            10
+            {count}
           </Typography>
         </Avatar>
         <Typography
@@ -44,8 +41,7 @@ export const TaskCounter: FC = (props): ReactElement => {
           fontSize="20px"
           variant="h5"
         >
-          {/* {emitCorrectLabel(status)} */}
-          task
+          {emitCorrectLabel(status)}
         </Typography>
       </Box>
     </>

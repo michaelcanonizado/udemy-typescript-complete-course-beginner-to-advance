@@ -3,6 +3,8 @@ import React, { FC, ReactElement } from 'react';
 
 import { format } from 'date-fns';
 import { TaskCounter } from '../taskCounter/taskCounter';
+import { Status } from '../createTaskForm/enums/Status';
+import { Task } from '../task/task';
 
 export const TaskArea: FC = (): ReactElement => {
   return (
@@ -28,9 +30,15 @@ export const TaskArea: FC = (): ReactElement => {
           xs={12}
           mb={8}
         >
-          <TaskCounter />
-          <TaskCounter />
-          <TaskCounter />
+          <TaskCounter count={10} status={Status.todo} />
+          <TaskCounter
+            count={5}
+            status={Status.inProgress}
+          />
+          <TaskCounter
+            count={2}
+            status={Status.completed}
+          />
         </Grid>
         <Grid
           item
@@ -39,9 +47,9 @@ export const TaskArea: FC = (): ReactElement => {
           xs={10}
           md={8}
         >
-          <Box>Tasks</Box>
-          <Box>Tasks</Box>
-          <Box>Tasks</Box>
+          <Task />
+          <Task />
+          <Task />
         </Grid>
       </Grid>
     </Grid>
