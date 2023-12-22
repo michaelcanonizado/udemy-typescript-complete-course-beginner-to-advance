@@ -14,5 +14,6 @@ class Person {
 }
 
 const person1: Person = new Person('Michael', 'mike@gmail.com');
+const person2: Person = new Person('John', 'john@gmail.com');
 
-console.log(person1.greet());
+console.log(person1.greet === person2.greet);
