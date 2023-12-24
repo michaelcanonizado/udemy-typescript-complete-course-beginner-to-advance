@@ -3,8 +3,10 @@ import React, { FC, ReactElement } from 'react';
 
 import { format } from 'date-fns';
 import { TaskCounter } from '../taskCounter/taskCounter';
-import { Status } from '../createTaskForm/enums/Status';
 import { Task } from '../task/task';
+
+import { Status } from '../createTaskForm/enums/Status';
+import { Priority } from '../createTaskForm/enums/Priority';
 
 export const TaskArea: FC = (): ReactElement => {
   return (
@@ -47,9 +49,9 @@ export const TaskArea: FC = (): ReactElement => {
           xs={10}
           md={8}
         >
-          <Task />
-          <Task />
-          <Task />
+          <Task priority={Priority.high} />
+          <Task priority={Priority.normal} />
+          <Task priority={Priority.low} />
         </Grid>
       </Grid>
     </Grid>

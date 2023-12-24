@@ -138,6 +138,12 @@ type Artist = {
 type MappedArtistForEdit = {
 	[Property in keyof Artist]?: Artist[Property];
 } & { id: number };
+// The code above boils down to the type below.
+// type MappedArtistForEdit = {
+// 	id : number;
+//  name ?: string;
+//  bio ?: string;
+// }
 const artist: Artist = {
 	id: 1,
 	name: 'Justin',
