@@ -7,5 +7,11 @@ interface User {
 
 // Allows us to require properties of a type that have been set to optional. Usually paired with Pick utility type
 type RegisterUser = Required<Pick<User, 'email' | 'password'>>;
+// RegisterUser becomes -> {
+// email : string
+// password : string
+// name ?: string
+// age ?: number
+//}
 
 export {};
