@@ -9,7 +9,7 @@ const user: Readonly<User> = {
 	age: 32,
 };
 
-// will error as .name is readonly
-// user.name = 'Something Else';
+// will error as all properties of User has been set to readonly
+// user.age = 'Something Else';
 
 export {};
